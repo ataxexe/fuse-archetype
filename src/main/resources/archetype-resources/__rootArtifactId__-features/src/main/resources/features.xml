@@ -5,4 +5,8 @@
 <features name="${package}"
           xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
   
+  <feature version="${project.version}" name="${rootArtifactId}">
+    
+  </feature>
+
 </features>
