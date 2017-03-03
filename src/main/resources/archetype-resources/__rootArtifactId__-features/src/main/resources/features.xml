@@ -2,10 +2,10 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features name="${package}"
+<features name="${package}.${rootArtifactId}"
           xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
   
-  <feature version="${project.version}" name="${rootArtifactId}">
+  <feature name="${rootArtifactId}" version="${project.version}">
     
   </feature>
 
