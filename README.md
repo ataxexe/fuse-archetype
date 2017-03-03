@@ -12,6 +12,15 @@ When creating a new project, use the following properties to specify this archet
 
 `-DarchetypeArtifactId=fuse-archetype -DarchetypeGroupId=tools.devnull`
 
+Bellow is a complete example:
+
+~~~
+mvn archetype:generate -B -DarchetypeArtifactId=fuse-archetype -DarchetypeGroupId=tools.devnull \
+    -DgroupId=your.group.id \
+    -DartifactId=your.artifact.id \
+    -Dversion=your.version
+~~~
+
 ## Features
 
 ### OSGi Development
