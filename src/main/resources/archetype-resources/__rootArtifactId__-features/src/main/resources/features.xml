@@ -6,7 +6,7 @@
           xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
   
   <feature name="${rootArtifactId}" version="${project.version}">
-    
+    <bundle>mvn:${project.groupId}/${rootArtifactId}/${project.version}</bundle>
   </feature>
 
 </features>
