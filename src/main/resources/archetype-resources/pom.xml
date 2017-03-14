@@ -43,6 +43,11 @@
     </dependencies>
   </dependencyManagement>
 
+  <modules>
+    <module>${rootArtifactId}</module>
+    <module>${rootArtifactId}-features</module>
+  </modules>
+
   <profiles>
     <profile>
       <id>osgi.export</id>
@@ -69,6 +74,21 @@
   </profiles>
 
   <dependencies>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-blueprint</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-camel</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>tools.devnull</groupId>
       <artifactId>kodo</artifactId>
